@@ -1,12 +1,15 @@
 // Styled Components
-import { CardS } from "./style";
+import { CardImg, CardS } from "./style";
+
+// Types
+import { CardProps } from "./types";
 
 // Functional Component
-export const Card = () => {
+export const Card = (props: CardProps) => {
 	// Rendering
 	return (
-		<CardS>
-			<>b</>
+		<CardS color={props.color}>
+			<CardImg src={props.img} />
 		</CardS>
 	);
 };
