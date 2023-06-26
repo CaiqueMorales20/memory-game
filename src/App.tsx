@@ -1,8 +1,15 @@
+// Imports
+import React from "react";
+import { GlobalStyle } from "./GlobalStyle";
+
 // Functional Component
 const App = () => {
 	// Rendering
-	return <>Memory</>;
+	return (
+		<React.Fragment>
+			<GlobalStyle />
+		</React.Fragment>
+	);
 };
 
-// Export
 export default App;
