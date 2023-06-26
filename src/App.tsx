@@ -1,15 +1,16 @@
-// Imports
-import React from "react";
-import { GlobalStyle } from "./GlobalStyle";
+// Styled Components
+import { AppS } from "./App.style";
+import { CardContent } from "./components/CardContent";
 
 // Functional Component
 const App = () => {
 	// Rendering
 	return (
-		<React.Fragment>
-			<GlobalStyle />
-		</React.Fragment>
+		<AppS>
+			<CardContent />
+		</AppS>
 	);
 };
 
+// Export
 export default App;
