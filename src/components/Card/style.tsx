@@ -10,11 +10,12 @@ type CardProps = {
 export const CardS = styled.div<CardProps>`
 	border-radius: 50%;
 	border: 0.25rem solid ${(props) => props.color};
-	width: 10rem;
 	aspect-ratio: 1 / 1;
 	display: grid;
 	place-items: center;
 	overflow: hidden;
+	align-self: center;
+	justify-self: center;
 `;
 
 export const CardImg = styled.img`

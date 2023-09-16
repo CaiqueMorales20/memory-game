@@ -18,5 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body{
     background-color: var(--clrPrimary400);
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 `;

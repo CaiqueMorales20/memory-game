@@ -1,5 +1,5 @@
 // Styled Components
-import { AppS } from "./App.style";
+import { AppS, Title } from "./App.style";
 import { CardContent } from "./components/CardContent";
 
 // Functional Component
@@ -7,6 +7,7 @@ const App = () => {
 	// Rendering
 	return (
 		<AppS>
+			<Title>memory</Title>
 			<CardContent />
 		</AppS>
 	);
