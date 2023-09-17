@@ -1,15 +1,20 @@
+// Imported Components
+import ContextComponent from "./global/context";
+import { CardContent } from "./components/CardContent";
+
 // Styled Components
 import { AppS, Title } from "./App.style";
-import { CardContent } from "./components/CardContent";
 
 // Functional Component
 const App = () => {
 	// Rendering
 	return (
-		<AppS>
-			<Title>memory</Title>
-			<CardContent />
-		</AppS>
+		<ContextComponent>
+			<AppS>
+				<Title>memory</Title>
+				<CardContent />
+			</AppS>
+		</ContextComponent>
 	);
 };
 

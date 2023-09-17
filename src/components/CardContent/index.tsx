@@ -13,7 +13,7 @@ export const CardContent = () => {
 	return (
 		<CardContentS>
 			{CardData.map((item) => {
-				// Rendering
+				// Rendering	
 				return (
 					<Card
 						name={item.name}
