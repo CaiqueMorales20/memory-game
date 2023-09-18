@@ -8,7 +8,7 @@ import { CardContentS } from "./style";
 import { CardData } from "../../global/data";
 
 // Functional Component
-export const CardContent = () => {
+export const Content = () => {
 	// Rendering
 	return (
 		<CardContentS>

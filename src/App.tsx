@@ -1,6 +1,6 @@
 // Imported Components
 import ContextComponent from "./global/context";
-import { CardContent } from "./components/CardContent";
+import { Content } from "./components/Content";
 
 // Styled Components
 import { AppS, Title } from "./App.style";
@@ -12,7 +12,7 @@ const App = () => {
 		<ContextComponent>
 			<AppS>
 				<Title>memory</Title>
-				<CardContent />
+				<Content />
 			</AppS>
 		</ContextComponent>
 	);

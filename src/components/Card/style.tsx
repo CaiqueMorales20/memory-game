@@ -16,9 +16,28 @@ export const CardS = styled.div<CardProps>`
 	overflow: hidden;
 	align-self: center;
 	justify-self: center;
+	cursor: pointer;
+	width: 100%;
 `;
+
+export const Inner = styled.div`
+	width: 100%;
+    height: 100%;
+
+	position: relative;
+
+	& > * {
+		position: absolute;
+	}
+`
+
 
 export const CardImg = styled.img`
 	width: 100%;
 	object-fit: cover;
 `;
+
+export const Background = styled.div`
+	width: 100%;
+	height: 100%;
+`
